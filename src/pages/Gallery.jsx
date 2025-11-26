@@ -7,12 +7,12 @@ const Gallery = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     const memories = [
-        { id: 1, src: "public/1.jpeg", caption: "❤️" },
-        { id: 2, src: "public/2.jpeg", caption: "❤️" },
-        { id: 3, src: "public/3.jpeg", caption: "❤️" },
-        { id: 4, src: "public/4.jpeg", caption: "❤️" },
-        { id: 5, src: "public/5.jpeg", caption: "❤️" },
-        { id: 6, src: "public/6.jpeg", caption: "❤️" },
+        { id: 1, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/1.jpeg?raw=true", caption: "❤️" },
+        { id: 2, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/2.jpeg?raw=true", caption: "❤️" },
+        { id: 3, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/3.jpeg?raw=true", caption: "❤️" },
+        { id: 4, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/4.jpeg?raw=true", caption: "❤️" },
+        { id: 5, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/5.jpeg?raw=true", caption: "❤️" },
+        { id: 6, src: "https://github.com/Tobi-maru/birthdat/blob/main/public/6.jpeg?raw=true", caption: "❤️" },
     ];
 
     return (
