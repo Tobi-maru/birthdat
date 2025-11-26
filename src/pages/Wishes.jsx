@@ -30,10 +30,8 @@ const Wishes = () => {
     const navigate = useNavigate();
 
     const wishes = [
-        { name: "Bestie", message: "Happy Birthday! Hope your day is as amazing as you are!" },
-        { name: "Mom & Dad", message: "We love you so much! Have a fantastic year ahead." },
-        { name: "The Squad", message: "Let's party!! Can't wait to celebrate with you." },
-        { name: "Secret Admirer", message: "Wishing you all the happiness in the world." },
+        { name: "Samaksh", message: "Happy Birthday to the one constant in my life. Thank you for being real, being supportive, and being you. I’m truly blessed to have a best friend like you.\n\nTo my best friend: May this year bring you endless happiness, growth, and all the success you deserve. I’ll always be cheering for you.\n\nHappy Birthday! No matter how life changes, you’ll always be my person, my comfort, and my forever friend." },
+
     ];
 
     return (

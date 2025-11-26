@@ -7,12 +7,12 @@ const Gallery = () => {
     const [selectedId, setSelectedId] = useState(null);
 
     const memories = [
-        { id: 1, src: "https://picsum.photos/id/1011/800/600", caption: "Adventure Time! 🌲" },
-        { id: 2, src: "https://picsum.photos/id/1025/800/600", caption: "Pug Life 🐶" },
-        { id: 3, src: "https://picsum.photos/id/1003/800/600", caption: "Best Day Ever 🦌" },
-        { id: 4, src: "https://picsum.photos/id/1015/800/600", caption: "Sunset Vibes 🌅" },
-        { id: 5, src: "https://picsum.photos/id/1020/800/600", caption: "Bear Hugs 🐻" },
-        { id: 6, src: "https://picsum.photos/id/1050/800/600", caption: "Coffee Dates ☕" },
+        { id: 1, src: "public/1.jpeg", caption: "❤️" },
+        { id: 2, src: "public/2.jpeg", caption: "❤️" },
+        { id: 3, src: "public/3.jpeg", caption: "❤️" },
+        { id: 4, src: "public/4.jpeg", caption: "❤️" },
+        { id: 5, src: "public/5.jpeg", caption: "❤️" },
+        { id: 6, src: "public/6.jpeg", caption: "❤️" },
     ];
 
     return (
@@ -137,7 +137,7 @@ const Gallery = () => {
                                     layoutId={`image-${item.id}`}
                                     style={{
                                         width: '100%',
-                                        height: 'auto',
+                                        height: '500px',
                                         maxHeight: '70vh',
                                         marginBottom: '20px',
                                         borderRadius: '5px',
